@@ -1,0 +1,74 @@
+    How you can run a Python program
+
+Running Python scripts
+
+Python can be used as a scripting language. In fact, it always proves itself very useful.
+Scripts are files (usually of small dimensions) that you normally execute to do something like a task.
+
+Many developers end up having their own arsenal of tools that they fire when they need to perform a task.
+    For example, you can have scripts to parse data in a format and render it into another different format.
+    Or you can use a script to work with files and folders.
+    You can create or modify configuration files, and much more.
+    Technically, there is not much that cannot be done in a script.
+
+
+Note
+    According to Wikipedia, the software utility Cron is a time-based job scheduler in Unix-like computer operating systems. People who set up and maintain software environments use Cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Running the Python interactive shell
+
+    Another way of running Python is by calling the interactive shell. This is something we already saw when we typed python on the command line of our console.
+
+    So, open a console, activate your virtual environment (which by now should be second nature to you, right?), and type python. You will be presented with a couple of lines that should look like this:
+
+    $ python
+    Python 3.7.0a3 (default, Jan 27 2018, 00:46:45)
+    [Clang 9.0.0 (clang-900.0.39.2)] on darwin
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running Python as a service
+
+Apart from being run as a script, and within the boundaries of a shell, Python can be coded and run as an application.
+
+We'll see many examples throughout the book about this mode.
+And we'll understand more about it in a moment, when we'll talk about how Python code is organized and run.
+
+
+Running Python as a GUI application
+
+Python can also be run as a graphical user interface (GUI).
+There are several frameworks available, some of which are cross-platform and some others are platform-specific.
+In Chapter 12, GUIs and Scripts, we'll see an example of a GUI application created using Tkinter, which is an object-oriented layer that lives on top of Tk (Tkinter means Tk interface).
+
+
+Note
+    Tk is a GUI toolkit that takes desktop application development to a higher level than the conventional approach.
+    It is the standard GUI for Tool Command Language (Tcl), but also for many other dynamic languages, and it can produce rich native applications that run seamlessly under Windows, Linux, macOS X, and more.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Describing them in detail is outside the scope of this book, but you can find all the information you need on the
+    Python website (https://docs.python.org/3/faq/gui.html)
+    in the What platform-independent GUI toolkits exist for Python? section.
+    If GUIs are what you're looking for, remember to choose the one you want according to some principles. Make sure they:
+
+    Offer all the features you may need to develop your project
+
+    Run on all the platforms you may need to support
+
+    Rely on a community that is as wide and active as possible
+
+    Wrap graphic drivers/tools that you can easily install/access
